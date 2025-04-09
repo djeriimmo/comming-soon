@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjeriImmo - Bientôt Disponible</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <img src="images/logo/footer-logo.svg" alt="DjeriImmo Logo">
+        </div>
+    </header>
+
+    <!-- Section Hero -->
+    <section class="hero">
+        <div class="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Jours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Heures</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Secondes</div>
+            </div>
+        </div>
+        <h1 class="hero-title">Bientôt Disponible</h1>
+        <p class="hero-text">DjeriImmo, votre partenaire de confiance pour tous vos projets immobiliers. Notre site est en cours de développement et sera bientôt à votre disposition pour vous offrir les meilleures opportunités immobilières.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section class="about">
+        <h2 class="section-title">À Propos</h2>
+        <div class="about-content">
+            <p>DjeriImmo est une agence immobilière nouvelle génération, proposant des services innovants et personnalisés pour répondre à tous vos besoins immobiliers. Notre équipe d'experts est prête à vous accompagner dans vos projets d'achat, de vente ou de location.</p>
+            <p>Avec une connaissance approfondie du marché local et un engagement envers l'excellence, nous transformons l'expérience immobilière traditionnelle pour la rendre plus simple, plus transparente et plus efficace.</p>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services">
+        <h2 class="section-title services-title">Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3 class="service-title">Achat et Vente</h3>
+                <p>Découvrez notre sélection exclusive de propriétés à vendre ou confiez-nous la vente de votre bien. Notre équipe vous accompagnera à chaque étape du processus.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-key"></i>
+                </div>
+                <h3 class="service-title">Location</h3>
+                <p>Trouvez le logement parfait à louer ou confiez-nous la gestion de votre propriété locative. Nous assurons un service complet pour les propriétaires et les locataires.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="service-title">Investissement</h3>
+                <p>Maximisez le potentiel de vos investissements immobiliers grâce à nos conseils experts et notre connaissance approfondie du marché et des tendances.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3 class="service-title">Conseil Immobilier</h3>
+                <p>Bénéficiez de conseils personnalisés et d'une assistance professionnelle pour tous vos projets immobiliers, de l'estimation à la finalisation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Disponibilité -->
+    <section class="availability">
+        <h2 class="section-title">Disponible Bientôt sur Mobile et Web</h2>
+        <p>Pour vous offrir une expérience optimale, DjeriImmo sera accessible depuis n'importe quel appareil, où que vous soyez.</p>
+        <div class="platforms">
+            <div class="platform">
+                <div class="platform-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3 class="platform-title">Mobile</h3>
+                <p>Accédez à nos services depuis votre smartphone ou tablette, avec une interface intuitive conçue pour la mobilité.</p>
+            </div>
+            <div class="platform">
+                <div class="platform-icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h3 class="platform-title">Web</h3>
+                <p>Profitez d'une expérience complète sur votre ordinateur, avec toutes les fonctionnalités et détails dont vous avez besoin.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Newsletter -->
+    <section class="newsletter">
+        <h2 class="section-title newsletter-title">Restez Informé</h2>
+        <p>Inscrivez-vous à notre newsletter pour être le premier à savoir quand notre site sera lancé et pour recevoir nos dernières annonces immobilières.</p>
+        <form class="newsletter-form" id="newsletterForm">
+            <input type="email" class="newsletter-input" id="emailInput" placeholder="Votre adresse e-mail" required>
+            <button type="submit" class="newsletter-button">S'inscrire</button>
+        </form>
+        <div id="newsletterMessage" class="newsletter-message"></div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact">
+        <h2 class="section-title">Contactez-Nous</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <p>+33 1 23 45 67 89</p>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <p>contact@djeriimmo.com</p>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p>123 Avenue des Immobiliers, 75000 Paris</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 DjeriImmo. Tous droits réservés.</p>
+        <p class="copyright">Mentions légales | Politique de confidentialité</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
